@@ -2,12 +2,12 @@
     margin: 0px;
 }
 .classbody{
-    display: flex;
+    display: block;
     flex-direction:row;
     background-color: #E5E5E5;
 }
 .cards{
-    display:flex;
+    display:inline-block;
     flex-direction: column;
     background-color: #ffffff;
     width:250px;
@@ -47,12 +47,13 @@ margin-right: 10px;
 }
 .rodape{
 
-    display: flex;    margin-right: 15px;
+    display: flex;    
+    margin-right: 15px;
     color: #4A4A4A;
     font-size: 16px;
     margin-top: 20px;
-   align-self: flex-end;
-   padding-bottom: 15px;
+ justify-content: end;  
+ padding-bottom: 15px;
    
 }
    
